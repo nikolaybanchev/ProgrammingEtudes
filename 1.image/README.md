@@ -32,9 +32,9 @@
 (unix epoch 1477141200) След това ще си направим изложба.
 
 ## Награди: 
-1-во място TBD
-2-ро място TBD
-3-то място вафла "Боровец"
+- 1-во място [TBD](https://en.wikipedia.org/wiki/To_be_announced)
+- 2-ро място [TBD](https://en.wikipedia.org/wiki/To_be_announced)
+- 3-то място вафла "Боровец"
 
 ## PS За вдъхновение:
 [Victor Vasarely](http://www.artnet.com/artists/victor-vasarely/)
