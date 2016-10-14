@@ -39,3 +39,7 @@
 
 ## Задължително награда за тези, които качат предложенията си в github. 
 (Който не знае как, да пита.)
+
+
+## PS За вдъхновение:
+[Victor Vasarely](http://www.artnet.com/artists/victor-vasarely/)
