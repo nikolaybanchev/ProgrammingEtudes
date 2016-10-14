@@ -44,7 +44,7 @@ int main()
         }
     }
 
-    bitmap.save("testpic.bmp");
+    bitmap.save("mandel.bmp");
     return 0;
 }
 
