@@ -36,5 +36,7 @@
 - 2-ро място [TBD](https://en.wikipedia.org/wiki/To_be_announced)
 - 3-то място вафла "Боровец"
 
+- Отделно награда за елегантен код
+
 ## PS За вдъхновение:
 [Victor Vasarely](http://www.artnet.com/artists/victor-vasarely/)
