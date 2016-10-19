@@ -3,10 +3,7 @@
 #include <cstdio>
 #include "bitmap.h"
 
-
-
 using namespace std;
-
 
 int main()
 {
@@ -17,12 +14,11 @@ int main()
     for(int frameN = 0;frameN < animationLength;frameN++){
         cout << "Processing frame " << frameN << " of " << animationLength<<endl;
 
-
         //**************Generating single image ***************************************
         Bitmap bitmap(imageWidth, imageHeight);
-        const int R = 255 - frameN;
         const int centerX = imageWidth / 2, centerY = imageHeight / 2;
-
+        
+        //drawing on every pixel with nested for cycles
         for(int x = 0; x < imageWidth; x++){
             for(int y = 0; y < imageHeight; y++ ) {
                 //polar coord system args
@@ -45,9 +41,8 @@ int main()
                 else bitmap.setPixel(x, y, 0,0,0);
             }
         }
-
+        //drawing curve only
         double delta = 0.0001;
-        double radius;
         for(double alpha=-3.1415;alpha < 3.1415; alpha += delta){
 
             double radius = sin(alpha*frameN)*127+128;
@@ -59,7 +54,7 @@ int main()
         }
         //************** End image generation  ***************************************
 
-        char fileName[100]; //allocate buffer for string C-style, I am unfamiliar with C++ string sry :)
+        char fileName[100]; //allocate buffer for string Plain C-style, I am unfamiliar with C++ string sorry :)
         sprintf(fileName,"%04d.bmp",frameN); // %04d is substituted with frameN in number format 0000, 0001, 0002 ....
         bitmap.save(fileName);
 
